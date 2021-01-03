@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+        <nav>
+            <ul>
+                <li id="about">about</li>
+                <li><a href="#" target="_blank">code</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about">
+        <div class="about-content">
+            <p id='close-about'>X</p>
+            <h2>Modal Window</h2>
+            <p>Simple modal window for subsribing to mailing list</p>
+        </div>
+    </div>
+    <div class="hero">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button id="learn-more">Learn More</button>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <p id="close-modal">X</p>
+            <p id="text">Enter your email address to learn more</p>
+            <form action="#">
+                <input id="email" type="email" placeholder="Enter your best email" required>
+                <button id="button">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
